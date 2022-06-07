@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>MQTT Client</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/mqtt@3.0.0/dist/mqtt.min.js"></script>
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu3f0Z4KR-R8nJv6uTi95VIUgaFd2N-Sk&callback=initMap"
+			async
+			defer
+		></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+	<div id="map-container">
+		<div id="map"></div>
+		<div id="info">
+			<h2><span id="km"> 150</span> km/h </h2>
+			<h4><span id="msl"> 990</span> msl </h4>
+        </div>
+	</div>
+  </body>
+</html>
