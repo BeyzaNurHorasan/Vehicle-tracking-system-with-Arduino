@@ -21,7 +21,7 @@ function initMap() {
 	});
 }
 // mqtt
-var client = mqtt.connect('ws://167.71.33.105:3000');
+var client = mqtt.connect('ws://ıpadresiniz:3000');
 
 client.subscribe('LOCATION');
 
