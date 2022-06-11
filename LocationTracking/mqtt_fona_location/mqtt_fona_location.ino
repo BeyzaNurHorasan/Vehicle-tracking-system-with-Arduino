@@ -15,7 +15,7 @@ Adafruit_FONA fona = Adafruit_FONA(FONA_RST);
 #define FONA_APN        "internet"
 #define FONA_USERNAME   ""
 #define FONA_PASSWORD   ""
-#define AIO_SERVER      "167.71.33.105"
+#define AIO_SERVER      "ıp adresiniz"
 #define AIO_SERVERPORT  1883
 
 Adafruit_MQTT_FONA mqtt(&fona, AIO_SERVER, AIO_SERVERPORT);
