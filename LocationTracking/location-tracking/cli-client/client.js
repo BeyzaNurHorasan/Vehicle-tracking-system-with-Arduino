@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://167.71.33.105:1883');
+var client = mqtt.connect('mqtt://ıpadresiniz:1883');
 
 client.subscribe('location');
 
